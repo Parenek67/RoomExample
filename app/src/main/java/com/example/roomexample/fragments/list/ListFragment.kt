@@ -1,21 +1,18 @@
 package com.example.roomexample.fragments.list
 
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.roomexample.R
-import com.example.roomexample.data.User
-import com.example.roomexample.data.UserViewModel
-import com.example.roomexample.data.UserViewModelFactory
+import com.example.roomexample.data.viewmodel.UserViewModel
+import com.example.roomexample.data.viewmodel.UserViewModelFactory
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class ListFragment : Fragment() {

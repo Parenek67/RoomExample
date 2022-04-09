@@ -10,9 +10,9 @@ import android.widget.EditText
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.example.roomexample.R
-import com.example.roomexample.data.User
-import com.example.roomexample.data.UserViewModel
-import com.example.roomexample.data.UserViewModelFactory
+import com.example.roomexample.data.model.User
+import com.example.roomexample.data.viewmodel.UserViewModel
+import com.example.roomexample.data.viewmodel.UserViewModelFactory
 
 class AddFragment : Fragment() {
 

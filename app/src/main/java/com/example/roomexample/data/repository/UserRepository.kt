@@ -1,6 +1,8 @@
-package com.example.roomexample.data
+package com.example.roomexample.data.repository
 
 import androidx.lifecycle.LiveData
+import com.example.roomexample.data.UserDao
+import com.example.roomexample.data.model.User
 
 class UserRepository(val userDao: UserDao) {
 
@@ -8,5 +10,9 @@ class UserRepository(val userDao: UserDao) {
 
     suspend fun insert(user: User){
         userDao.insert(user)
+    }
+
+    suspend fun update(user: User){
+        userDao.update(user)
     }
 }
