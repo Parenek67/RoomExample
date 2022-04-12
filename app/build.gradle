@@ -64,6 +64,4 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0"
     api "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0"
     api "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0"
-
-   // classpath("androidx.navigation:navigation-safe-args-gradle-plugin:2.4.2")
 }

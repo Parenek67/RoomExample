@@ -6,7 +6,6 @@ import androidx.room.PrimaryKey
 import kotlinx.parcelize.Parcelize
 
 @Parcelize
-//может быть не тот импорт
 @Entity(tableName = "users")
 data class User(
     @PrimaryKey(autoGenerate = true)

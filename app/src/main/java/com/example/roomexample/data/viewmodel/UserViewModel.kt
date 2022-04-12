@@ -34,6 +34,10 @@ class UserViewModel(context: Context): ViewModel() {
         }
     }
 
+    fun deleteUser(user: User) = viewModelScope.launch(Dispatchers.IO) {
+        repository.delete(user)
+    }
+
     fun getAllData() = readAllData
 
 }
